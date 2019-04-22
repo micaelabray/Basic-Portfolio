@@ -5,7 +5,11 @@ header {
 }
 
 body {
-    background-color: #fff;
+    background-image: url("../css/dark-honeycomb.png");
+    background-color: #ccc;
+}
+
+section {
     color: #777;
     border-color: #ddd;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
