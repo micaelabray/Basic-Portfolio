@@ -6,6 +6,7 @@ header {
 
 body {
     background-image: url("../css/dark-honeycomb.png");
+    
     background-color: #ccc;
 }
 
@@ -15,4 +16,19 @@ section {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     padding: 30px;
     width: 900px;
+}
+
+img {
+    height: 25%;
+    width: 25%;
+}
+
+#name {
+    background-color: teal;
+    color: white;
+}
+
+#bio {
+    position: relative;
+    float: left;
 }
