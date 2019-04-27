@@ -11,6 +11,28 @@ header {
     padding: 30px;
     text-align: center;
     position: relative;
+    overflow: auto;
+}
+
+.center {
+    margin: auto;
+    width: 900px;
+    padding-bottom: 0;
+}
+
+.name {
+    background-color: teal;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    width: 250px;
+    margin-bottom: 0%;
+    text-align: center;
+    float:left;
+}
+
+.nav {
+    padding-bottom: 0;
 }
 
 h2 {
@@ -42,6 +64,7 @@ img {
 ul {
     list-style: none;
     display: inline;
+    float: right;
 }
 
 li {
@@ -49,22 +72,13 @@ li {
     margin: 10px;
 }
 
-.name {
-    background-color: teal;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 10px;
-    width: 200px;
-    margin-bottom: 0%;
-    text-align: center;
-}
-
 input {
     width:100%;
+
 }
-input [textarea] {
-    resize: vertical;
-    height: 400px;
+
+textarea {
+    width: 100%;
 }
 
 .bio {
@@ -74,10 +88,11 @@ input [textarea] {
 }
 
 .portfolio {
+    /* min-height: "800px" */
 }
 
 footer {
-    position: fixed;
+    /* position: fixed; */
     left: 0;
     bottom: 0;
     width: 100%;
@@ -86,7 +101,7 @@ footer {
     text-align: center;
     font-size: 10px;
     padding-top:30px;
-    padding bottom: 0;
+    padding-bottom: 0;
     border-style: solid;
     border-color: teal;
     margin-top: 20px;
