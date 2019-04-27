@@ -8,7 +8,7 @@ header {
     background-color: #ffffff;
     border-color: #ccc;
     margin: auto;
-    padding: 30px;
+    padding: 0;
     text-align: center;
     position: relative;
     overflow: auto;
@@ -77,10 +77,11 @@ textarea {
 }
 
 /*Bio*/
-.bio {
+#bio {
     position: relative;
     float: left;
     display:inline;
+    line-height: 200%;
 }
 
 #profilepicture {
@@ -96,109 +97,138 @@ textarea {
     /* min-height: "800px" */
 }
 
+#top {
+
+}
 
 #topleft{
     height:200px;
     width:200px;
     position:relative;
-    float: left;
+    left: 60px;
+    top: 60px;
 }
 
 #topleftimage {
     height: 200px;
     width: 200px;
-    background-color: white
+    background-color: black; 
 }
 
 #topleftbanner{
     background-color: teal;
     color: white;
-    width: 200px;
     text-align: center;
     position: relative;
+    bottom: 60px;
+    padding: 10px;
 }
 
-#topright {
+#topcenter {
     height:200px;
     width:200px;
     position:relative;
-    float: right;
+    left: 380px;
+    bottom: 140px;
 }
 
-#toprightimage {
+#topcenterimage {
     height: 200px;
     width: 200px;
-    background-color: white
+    background-color: black;
 }
 
-#toprightbanner {
+#topcenterbanner {
     background-color: teal;
     color: white;
-    width: 200px;
     text-align: center;
+    padding:10px;
+    position:relative;
+    bottom:60px;
 }
+
+#middle {
+
+}
+
 #middleleft {
     height:200px;
     width:200px;
     position:relative;
-    float: left;
+    left: 60px;
+    bottom: 60px;
 }
 
 #middleleftimage {
     height: 200px;
     width: 200px;
-    background-color: white
+    background-color: black;
 }
 
 #middleleftbanner{
     background-color: teal;
     color: white;
-    width: 200px;
+    position: relative;
     text-align: center;
+    padding: 10px;
+    bottom: 60px;
 }
 
-#middleright {
+#middlecenter {
     height:200px;
     width:200px;
     position:relative;
-    float: right;
+    left: 380px;
+    bottom: 260px;
 }
 
-#middlerightimage {
+#middlecenterimage {
     height: 200px;
     width: 200px;
-    background-color: white
+    background-color: black;
 }
 
-#middlerightbanner {
+#middlecenterbanner {
     background-color: teal;
     color: white;
-    width: 200px;
     text-align: center;
+    position:relative;
+    bottom:60px;
+    padding:10px;
+}
+
+#bottom {
+
 }
 
 #bottomleft{
     height:200px;
     width:200px;
     position:relative;
-    float: left;
+    left: 60px;
+    bottom: 180px;
 }
 
 #bottomleftimage {
     height: 200px;
     width: 200px;
-    background-color: white
+    background-color: black;
 }
 
 #bottomleftbanner{
     background-color: teal;
     color: white;
-    width: 200px;
     text-align: center;
+    padding:10px;
+    bottom:60px;
+    position: relative;
 }
 
 /*Footer*/
 footer {
+    position: sticky;
+
+
     left: 0;
     bottom: 0;
     width: 100%;
