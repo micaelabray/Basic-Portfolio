@@ -21,8 +21,8 @@ header {
 }
 
 .name {
-    background-color: teal;
-    color: white;
+    background-color: #4aaaa4;
+    color: #fff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 10px;
     width: 250px;
@@ -48,7 +48,7 @@ li {
 
 /*Main Content*/
 h2 {
-    color: teal;
+    color: #4aaaa4;
 }
 
 .main {
@@ -116,11 +116,11 @@ textarea {
 }
 
 #topleftbanner{
-    background-color: teal;
-    color: white;
+    background-color: #4aaaa4;
+    color: #fff;
     text-align: center;
     position: relative;
-    bottom: 60px;
+    bottom: 80px;
     padding: 10px;
 }
 
@@ -139,12 +139,12 @@ textarea {
 }
 
 #topcenterbanner {
-    background-color: teal;
-    color: white;
+    background-color: #4aaaa4;
+    color: #fff;
     text-align: center;
     padding:10px;
     position:relative;
-    bottom:60px;
+    bottom:80px;
 }
 
 #middle {
@@ -166,12 +166,12 @@ textarea {
 }
 
 #middleleftbanner{
-    background-color: teal;
-    color: white;
+    background-color: #4aaaa4;
+    color:#fff;
     position: relative;
     text-align: center;
     padding: 10px;
-    bottom: 60px;
+    bottom: 80px;
 }
 
 #middlecenter {
@@ -189,11 +189,11 @@ textarea {
 }
 
 #middlecenterbanner {
-    background-color: teal;
-    color: white;
+    background-color: #4aaaa4;
+    color: #fff;
     text-align: center;
     position:relative;
-    bottom:60px;
+    bottom:80px;
     padding:10px;
 }
 
@@ -216,30 +216,28 @@ textarea {
 }
 
 #bottomleftbanner{
-    background-color: teal;
-    color: white;
+    background-color: #4aaaa4;
+    color: #fff;
     text-align: center;
     padding:10px;
-    bottom:60px;
+    bottom:80px;
     position: relative;
 }
 
 /*Footer*/
 footer {
     position: sticky;
-
-
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: #666666;
-    color: #777;
+    color:#fff;
     text-align: center;
-    font-size: 10px;
+    font-size: 14px;
     padding-top:30px;
     padding-bottom: 0;
     border-style: solid;
-    border-color: teal;
+    border-color: #4aaaa4;
     margin-top: 20px;
     margin-bottom: 0;
 }
